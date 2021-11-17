@@ -1,0 +1,91 @@
+@import "../Coach/Coach.scss";
+@import "../Hero/Hero.scss";
+
+.service {
+  margin-top: 10vh;
+  top: 300px;
+  height: 110vh;
+  text-align: center;
+  &:hover {
+    cursor: pointer;    
+  }
+
+
+  .show {
+    color: white;
+    background: black;
+    transition: 1.2s;
+    position: absolute;
+    height: 50vh;
+    width: 99vw;
+    left: 2px;
+    @include serviceDesign;
+    .title {
+      text-decoration: underline;
+    }
+    .fa-chevron-circle-down{
+      display: none;
+    }
+    .fa-times{
+      position: relative;
+      right: 55vw;
+      &:hover{
+        text-decoration: underline;
+      }
+        }
+    p {
+      display: contents;
+      text-align: left;
+      font-size: 12px;
+      height: 50vh;
+      width: 99vw;
+    }
+  }
+  .hide {
+    color: white;
+    background: black;
+    transition: 1.2s;
+    position: absolute;
+    height: 10vh;
+    left: 2px;
+    @include serviceDesign;
+    .fa-times{
+      display: none;
+    }
+    p {
+      display: none;
+    }
+  }
+}
+  
+
+  .showN {
+    color: white;
+    background: black;
+    transition: 1.2s;
+    position: absolute;
+    height: 50vh;
+    width: 99vw;
+    left: 2px;
+    @include serviceDesign;
+    p {
+      display: contents;
+      text-align: left;
+      font-size: 10px;
+      height: 50vh;
+    }
+  }
+  .hideN {
+    color: white;
+    background: black;
+    border-color: white;
+    position: absolute;
+    height: 10vh;
+    left: 500px;
+    @include serviceDesign;
+
+    p {
+      display: none;
+    }
+  }
+  

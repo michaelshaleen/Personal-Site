@@ -1,0 +1,25 @@
+@import "../Hero/Hero.scss";
+
+.massageParallax {
+  background: url('../images/massage.jpg');
+  @include parallax;
+  height: 80vh;
+
+}
+.technologies{
+  color: black;
+  @include text;
+}
+.grids {
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  .boxes {
+    @include text;
+    margin-top: 25px;
+  }
+}
+.list {
+  @include text;
+}

@@ -1,0 +1,72 @@
+@import "../Hero/Hero.scss";
+
+.beach {
+  background: url('../images/beach.jpg');
+  /* Create the parallax scrolling effect */
+  @include parallax;
+  height: 80vh;
+
+}
+.competition {
+  background: url('../images/coach_profile.jpeg');
+  /* Create the parallax scrolling effect */
+  @include parallax;
+  height: 85vh; 
+}
+
+.boxes{
+  @include text;
+  h3 {
+    margin-top: 10px;
+  }
+}
+
+
+  .intro {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  @include text;
+  width: 75vw;
+}
+
+footer {
+  position: relative;
+  align-items: center;
+  top: 450px;
+}
+.hero-btns {
+  margin-top: 32px;
+}
+
+
+.service {
+height: 100vh;
+}
+.program {
+  margin-bottom: 25vh;
+  height: 75vh;
+  width: 50vw;
+  background-color: black;
+  p {
+    color: white;
+  }
+}
+
+
+.nutrition-component{
+  margin-top: 20vh;
+}
+.programming-component{
+  margin-top: 20vh;
+}
+// .boxes {
+//   margin-bottom: 10vh;
+
+//   .coach_believe {
+//     @include text;
+//     li{
+//       @include text;
+//     }
+
+//   }
+// }

@@ -1,0 +1,99 @@
+//creating mixins for site
+
+@mixin parallax () {  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@mixin btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+}
+@mixin coach {
+  background: url('../images/coach_profile.jpeg');
+  @include parallax;
+  height: 90vh;  @include parallax;
+  height: 90vh;
+
+}
+@mixin serviceDesign () {  
+  border: 2px solid white;
+}
+
+@mixin text {
+  background-color: #0b0b0b;
+  color: white;
+  padding-top: 0px;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.hero-container {
+  /* background: url('../../../public/favicon.ico') center center/cover no-repeat; */
+  height: 100vh;
+  font-family: 'Courgette', cursive;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+  }
+  .motto {
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 64px;
+    width: 98vw;
+    text-align: center;
+  }
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+// @media screen and (max-width: 960px){
+//   .hero-container > h1 {
+//     font-size: 70px;
+//     margin-top: -150px;
+//   }
+
+// }
+
+@media screen and (min-width: 800px){
+    .motto {
+    color: red;
+    font-family: 'Courgette', cursive;
+    font-size: 64px;
+    width: 98vw;
+  }
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+  .hero-container > p {
+    font-size: 30px;
+  }
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn{
+    width: 100%;
+  }
+}

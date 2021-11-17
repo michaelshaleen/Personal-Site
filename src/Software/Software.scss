@@ -1,0 +1,52 @@
+$font-style: Courier New, Courier, monospace;
+@import "../Hero/Hero.scss";
+
+
+.softwareParallax {
+  background: url('../images/background.jpg');
+  @include parallax;
+  height: 80vh;
+}
+.technologies {
+  display: inline;
+  position: absolute;
+  top: 15vh;
+  h3{
+    position: relative;
+    left: 6vw;
+  }
+  .technologies_list {
+    max-width: 50vw;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-size: 16px;
+    &:hover {
+      font-size: large;
+      .learning_list {
+        font-size: large;
+      }
+    }
+  }
+}
+
+.learning_technologies {
+  display: inline;
+  position: absolute;
+  top: 15vh;
+  left:65vw;
+  h3{
+    color: white;
+
+
+  }
+
+  .learning_list {
+    color: white;
+    background-color: rgb(21, 70, 114);
+    border-radius: 5px;
+    font-size: 16px;
+    &:hover {
+      font-size: large;
+    }
+  }
+}
