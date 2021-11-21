@@ -83,14 +83,14 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .nav .navName {
   font-size: 16px;
-}
-
-.nav .navName:hover {
-  border-bottom: 2px solid white;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .nav .menu-icon {
@@ -98,6 +98,8 @@
   font-size: .8rem;
   cursor: pointer;
   position: absolute;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .nav:hover {
@@ -167,6 +169,8 @@
       -ms-flex-pack: end;
           justify-content: end;
   margin-right: 2rem;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .nav-item {
@@ -225,8 +229,8 @@
     top: 80px;
     left: -100%;
     opacity: 1;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all 1.5s ease;
+    transition: all 1.5s ease;
   }
   .nav-menu.active {
     background: #242222;
@@ -235,6 +239,8 @@
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     z-index: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
   }
   .nav-links {
     text-align: center;

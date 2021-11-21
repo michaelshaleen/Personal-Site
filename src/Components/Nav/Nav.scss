@@ -11,17 +11,17 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  transition: 2s;
   .navName {
     font-size: 16px;
-    &:hover {
-      border-bottom: 2px solid white;
-    }
+    transition: 2s;
   }
   .menu-icon{
     display: inline;
     font-size: .8rem;
     cursor: pointer;
     position: absolute;
+    transition: 2s;
   }
   &:hover {
     height: 80px;
@@ -68,7 +68,7 @@
   width: 60vw;
   justify-content: end;
   margin-right: 2rem;
-
+  transition: 2s;
 }
 
 .nav-item {
@@ -87,8 +87,6 @@
     transition: all 0.2s ease-out;
   }
 }
-
-
 
 .fa-bars {
   color: #fff;
@@ -120,7 +118,8 @@
     top: 80px;
     left: -100%;
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 1.5s ease;
+
   }
 
   .nav-menu.active {
@@ -129,6 +128,8 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    transition: 1s;
+
   }
 
   .nav-links {
