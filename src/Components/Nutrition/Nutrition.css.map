@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAA;EAClB,KAAK,EAAC,GAAG;EACT,KAAK,EAAE,IAAI;EACX,MAAM,EAAC,KAAK;EACZ,gBAAgB,EAAE,KAAK;CAIxB;;AARD,AAKE,oBALkB,CAKlB,CAAC,CAAA;EACC,KAAK,EAAC,KAAK;CACZ",
+    "sources": [
+        "Nutrition.scss"
+    ],
+    "names": [],
+    "file": "Nutrition.css"
+}

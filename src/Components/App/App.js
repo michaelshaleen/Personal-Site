@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Nav from '../Nav/Nav';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';

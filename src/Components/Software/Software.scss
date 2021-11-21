@@ -3,7 +3,7 @@ $font-style: Courier New, Courier, monospace;
 
 
 .softwareParallax {
-  background: url('../images/background.jpg');
+  background: url('../Images/background.jpg');
   @include parallax;
   height: 80vh;
 }

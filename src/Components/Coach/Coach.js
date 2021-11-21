@@ -2,17 +2,18 @@ import React, { useState, useEffect } from 'react';
 import './Coach.css';
 import Footer from '../Footer/Footer';
 import Programming from '../Programming/Programming';
-import Nutrition from '../Nutrition/Nutrition';
+import Nutrition from '../Nutrition/Nutriton';
+
 import { Link } from 'react-router-dom';
 import DoneOutlineIcon from '@material-ui/icons/DoneOutline';
 import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 import Aos from 'aos';
 import "aos/dist/aos.css";
-<link rel="stylesheet"  
+{/* <link rel="stylesheet"  
   href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
   integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
   crossorigin="anonymous">
-</link>
+</link> */}
 
 function Coach() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function Coach() {
 
   return (<>
     <div className="beach"></div>
+    <ArrowDropDownCircleIcon />
       
     <p className="intro">
           Since 2012 I've been supporting people

@@ -1,0 +1,126 @@
+.hero-container {
+  /* background: url('../../../public/favicon.ico') center center/cover no-repeat; */
+  height: 100vh;
+  font-family: 'Courgette', cursive;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.hero-container video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container .motto {
+  color: white;
+  font-family: 'Courgette', cursive;
+  font-size: 64px;
+  width: 98vw;
+  text-align: center;
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 800px) {
+  .motto {
+    color: red;
+    font-family: 'Courgette', cursive;
+    font-size: 64px;
+    width: 98vw;
+  }
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+  .hero-container > p {
+    font-size: 30px;
+  }
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+
+.softwareParallax {
+  background: url("../images/background.jpg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.technologies {
+  display: inline;
+  position: absolute;
+  top: 15vh;
+}
+
+.technologies h3 {
+  position: relative;
+  left: 6vw;
+}
+
+.technologies .technologies_list {
+  max-width: 50vw;
+  background-color: aliceblue;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.technologies .technologies_list:hover {
+  font-size: large;
+}
+
+.technologies .technologies_list:hover .learning_list {
+  font-size: large;
+}
+
+.learning_technologies {
+  display: inline;
+  position: absolute;
+  top: 15vh;
+  left: 65vw;
+}
+
+.learning_technologies h3 {
+  color: white;
+}
+
+.learning_technologies .learning_list {
+  color: white;
+  background-color: #154672;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.learning_technologies .learning_list:hover {
+  font-size: large;
+}
+/*# sourceMappingURL=Software.css.map */
