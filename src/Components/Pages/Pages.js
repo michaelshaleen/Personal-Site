@@ -1,7 +1,7 @@
 // import './App.css';
 import Hero from '../Hero/Hero';
 import React from 'react';
-import Cards from '../Card/Cards';
+import Cards from '../Card/CardItem';
 
 
 function Pages() {

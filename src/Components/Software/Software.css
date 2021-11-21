@@ -67,7 +67,7 @@
 }
 
 .softwareParallax {
-  background: url("../images/background.jpg");
+  background: url('../Images/background.jpg');
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;

@@ -67,7 +67,7 @@
 }
 
 .massageParallax {
-  background: url("../images/massage.jpg");
+  background: url("../Images/massage.jpg");
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;

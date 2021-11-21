@@ -1,7 +1,7 @@
 @import "../Hero/Hero.scss";
 
 .massageParallax {
-  background: url('../images/massage.jpg');
+  background: url('../Images/massage.jpg');
   @include parallax;
   height: 80vh;
 
