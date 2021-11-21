@@ -1,99 +1,98 @@
-//creating mixins for site
+//import to include button
+@import "../Button/Button.scss";
+@import "../Hero/Hero.scss";
 
-@mixin parallax () {  
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-@mixin btn {
-  padding: 8px 20px;
-  border-radius: 2px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-
-}
-@mixin coach {
-  background: url('../images/coach_profile.jpeg');
-  @include parallax;
-  height: 90vh;  @include parallax;
-  height: 90vh;
-
-}
-@mixin serviceDesign () {  
-  border: 2px solid white;
-}
-
-@mixin text {
-  background-color: #0b0b0b;
-  color: white;
-  padding-top: 0px;
-  font-size: 24px;
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-
-.hero-container {
-  /* background: url('../../../public/favicon.ico') center center/cover no-repeat; */
+.container {
+  max-width: 1170px;
   height: 100vh;
-  font-family: 'Courgette', cursive;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  object-fit: contain;
-  video{
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    z-index: -1;
-  }
-  .motto {
-    color: white;
-    font-family: 'Courgette', cursive;
-    font-size: 64px;
-    width: 98vw;
-    text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1m;
+  .wrapper {
+    // box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+    .company-info {
+      background: rgb(4, 11, 53);
+      color:#9ba3ac;
+    }
   }
 }
-
-.hero-btns {
-  margin-top: 32px;
-}
-// @media screen and (max-width: 960px){
-//   .hero-container > h1 {
-//     font-size: 70px;
-//     margin-top: -150px;
-//   }
-
+// body{
+//   line-height: 1.6;
+//   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//   padding: 1m;
 // }
+.contact {
+  background: #9ba3ac;
+  p {
+    margin: 0;
+    label {
+      display: block;
+      margin-bottom: 5px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .text-input {
+      width: 90%;
+      margin-left: 15px;
+      margin-right: 15px;
+      height: 12vh;
+      background: rgb(219, 214, 214);
+      &:hover {
+        cursor: pointer;
+        border: 1.5px solid rgb(56, 124, 30);
+      }
+    }
+  }
+}
 
-@media screen and (min-width: 800px){
-    .motto {
-    color: red;
-    font-family: 'Courgette', cursive;
-    font-size: 64px;
-    width: 98vw;
+
+.contact form .full {
+  grid-column: 1 / 5;
+}
+
+
+.contact form input,
+.contact form textarea {
+  width: 95%;
+  height: 50px;
+  padding: 1m;
+  border: 1px solid #c9e6ff;
+  margin-left: 15px;
+  margin-right: 15px;
+  &:hover {
+    cursor: pointer;
   }
-  .hero-container > h1 {
-    font-size: 50px;
-    margin-top: -100px;
-  }
-  .hero-container > p {
-    font-size: 30px;
-  }
-  .btn-mobile {
-    display: block;
+}
+
+.emailBtn {
+  width: 90%;
+  height: 50px;
+  padding: 1m;
+  border: 1px solid #c9e6ff;
+  margin-left: 15px;
+  margin-right: 15px;
+  transition: all .75s ease-out;
+  @include btn;
+  &:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #242424;
+    transition: all .75s ease-out;
     text-decoration: none;
-  }
+    border: 1.5px solid rgb(56, 124, 30);
 
-  .btn{
-    width: 100%;
+  }
+}
+
+@media(min-width: 700px){
+  .wrapper{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+  }
+  .wrapper > *{
+    padding: 2em;
+  }
+  .company-info h3 , .company-info ul , .brand{
+    text-align: left;
   }
 }

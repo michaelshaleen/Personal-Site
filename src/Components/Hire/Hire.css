@@ -65,4 +65,221 @@
     width: 100%;
   }
 }
+
+:root {
+  --primary: white;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 16px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 16px;
+}
+
+.btn--medium:hover,
+.btn--large:hover {
+  background-color: #fff;
+  color: #242424;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}
+
+.hero-container {
+  /* background: url('../../../public/favicon.ico') center center/cover no-repeat; */
+  height: 100vh;
+  font-family: 'Courgette', cursive;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.hero-container video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container .motto {
+  color: white;
+  font-family: 'Courgette', cursive;
+  font-size: 64px;
+  width: 98vw;
+  text-align: center;
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 800px) {
+  .motto {
+    color: red;
+    font-family: 'Courgette', cursive;
+    font-size: 64px;
+    width: 98vw;
+  }
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+  .hero-container > p {
+    font-size: 30px;
+  }
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+
+.container {
+  max-width: 1170px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1m;
+}
+
+.container .wrapper .company-info {
+  background: #040b35;
+  color: #9ba3ac;
+}
+
+.contact {
+  background: #9ba3ac;
+}
+
+.contact p {
+  margin: 0;
+}
+
+.contact p label {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.contact p .text-input {
+  width: 90%;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 12vh;
+  background: #dbd6d6;
+}
+
+.contact p .text-input:hover {
+  cursor: pointer;
+  border: 1.5px solid #387c1e;
+}
+
+.contact form .full {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1 / 5;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 95%;
+  height: 50px;
+  padding: 1m;
+  border: 1px solid #c9e6ff;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.contact form input:hover,
+.contact form textarea:hover {
+  cursor: pointer;
+}
+
+.emailBtn {
+  width: 90%;
+  height: 50px;
+  padding: 1m;
+  border: 1px solid #c9e6ff;
+  margin-left: 15px;
+  margin-right: 15px;
+  -webkit-transition: all .75s ease-out;
+  transition: all .75s ease-out;
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.emailBtn:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #242424;
+  -webkit-transition: all .75s ease-out;
+  transition: all .75s ease-out;
+  text-decoration: none;
+  border: 1.5px solid #387c1e;
+}
+
+@media (min-width: 700px) {
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 2fr;
+        grid-template-columns: 1fr 2fr;
+  }
+  .wrapper > * {
+    padding: 2em;
+  }
+  .company-info h3, .company-info ul, .brand {
+    text-align: left;
+  }
+}
 /*# sourceMappingURL=Hire.css.map */
