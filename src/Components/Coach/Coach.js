@@ -22,9 +22,9 @@ function Coach() {
 
   return (<>
     <div className="beach"></div>
-    <ArrowDropDownCircleIcon />
-      
-    <p className="intro">
+    <div className="p-container">
+      <ArrowDropDownCircleIcon />
+      <p className="intro">
           Since 2012 I've been supporting people
           to reach and MAINTAIN their health and fitness
           goals. From Marine Corps entry preparation
@@ -38,23 +38,25 @@ function Coach() {
           and most importantly, keeping this consistent
           after their goals are met.
         </p>   
+      </div>  
+      {/* parallax */}
     <div className="competition"></div>
-
+    <div className="p-container">
       <div data-aos="fade-right" className="boxes" > 
-        <h3
-          className="coach-text">
+        <h3>
           Credentials
         </h3>
-      <ul className="text">
-        <li>
+      <ul>
+        <li className="list">
           Olympic Weightlifting Level 2
           <DoneOutlineIcon />
         </li>
-        <li>
+        <li className="list">
           CrossFit Level 1 since 2017
           <DoneOutlineIcon />
         </li>
-        <li>
+            
+        <li className="list">
         Personal Training since 2012
           <DoneOutlineIcon />
         </li>
@@ -65,21 +67,22 @@ function Coach() {
           className="coach-text">
             Experience
         </h3>
-      <ul className="text">
-        <li>
+      <ul>
+        <li className="list">
         Weekend Warriors
           <DoneOutlineIcon />
         </li>
-        <li>
+        <li className="list">
           Fat Loss/ Muscle Gain
           <DoneOutlineIcon />
         </li>
-        <li>
+        <li className="list">
         Crawling is better than quitting
           <DoneOutlineIcon />
         </li>
       </ul>
     </div>
+            </div>
       <div className="nutrition-component">
       <Nutrition />
       </div>
