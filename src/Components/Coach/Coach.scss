@@ -1,7 +1,7 @@
 @import "../Hero/Hero.scss";
 
 .beach {
-  background: url('../images/beach.jpg');
+  background: url('../Images/beach.jpg');
   /* Create the parallax scrolling effect */
   @include parallax;
   height: 80vh;
@@ -14,19 +14,24 @@
   height: 85vh; 
 }
 
-.boxes{
-  @include text;
-  h3 {
-    margin-top: 10px;
+.p-container{
+  width:100vw;
+  // background: url('../Images/beach.jpg');
+  background-color: rgb(54, 49, 49);
+  color: white;
+  .intro {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    @include text;
+    width: 75vw;
   }
 }
-
-
-  .intro {
-  margin-left: 10vw;
-  margin-right: 10vw;
+.boxes{
   @include text;
-  width: 75vw;
+  padding-top: 0%;
+}
+.list{
+font-size: 16px;
 }
 
 footer {
@@ -37,8 +42,6 @@ footer {
 .hero-btns {
   margin-top: 32px;
 }
-
-
 .service {
 height: 100vh;
 }
