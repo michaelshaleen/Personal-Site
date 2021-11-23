@@ -1,11 +1,16 @@
 .nutrition-container {
   color: red;
-  width: 75vw;
   height: 100vh;
-  background-color: white;
+  background-color: #c3baba;
 }
 
 .nutrition-container p {
   color: black;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 /*# sourceMappingURL=Nutrition.css.map */

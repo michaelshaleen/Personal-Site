@@ -1,9 +1,10 @@
 .nutrition-container{
   color:red;
-  width: 75vw;
   height:100vh;
-  background-color: white;
+  background-color: rgb(195, 186, 186);
   p{
     color:black;
+    justify-content: right;
+    align-items: flex-end;
   }
 }

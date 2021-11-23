@@ -37,6 +37,7 @@
       margin-right: 15px;
       height: 12vh;
       background: rgb(219, 214, 214);
+      border-radius: 5px;
       &:hover {
         cursor: pointer;
         border: 1.5px solid rgb(56, 124, 30);
@@ -72,6 +73,7 @@
   margin-left: 15px;
   margin-right: 15px;
   transition: all .75s ease-out;
+  border-radius: 5px;
   @include btn;
   &:hover {
     cursor: pointer;
