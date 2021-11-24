@@ -62,7 +62,7 @@ function Coach() {
         </li>
       </ul>
     </div>
-    <div data-aos="fade-right" className="boxes" > 
+    <div data-aos="fade-left" className="boxes" > 
         <h3
           className="coach-text">
             Experience

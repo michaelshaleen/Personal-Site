@@ -1,10 +1,36 @@
+@import "../Hero/Hero.scss";
+//origin mixins are in hero(landing page)
+
+
+
+
 .nutrition-container{
   color:red;
-  height:100vh;
-  background-color: rgb(195, 186, 186);
+  height:75vh;
+  background-color: rgb(240, 226, 226);
+  .boxes{
+    @include text;
+    padding-top: 0%;
+    width: 50vw;
+    position: relative;
+    margin-left: 25vw; 
+    border-radius: 10px;
+
+  }
   p{
     color:black;
     justify-content: right;
     align-items: flex-end;
+    margin-left: 5vw;
+    .easy{
+      text-decoration-line: line-through;
+    }
   }
-}
+  .btn{
+    margin-left: 42vw;
+    background-color: black;
+    border-radius: 10px;
+
+    
+  }
+} 
