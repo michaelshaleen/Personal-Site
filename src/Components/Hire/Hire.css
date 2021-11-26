@@ -214,6 +214,7 @@
   margin-right: 15px;
   height: 12vh;
   background: #dbd6d6;
+  border-radius: 5px;
 }
 
 .contact p .text-input:hover {
@@ -251,6 +252,7 @@
   margin-right: 15px;
   -webkit-transition: all .75s ease-out;
   transition: all .75s ease-out;
+  border-radius: 5px;
   padding: 8px 20px;
   border-radius: 2px;
   outline: none;
