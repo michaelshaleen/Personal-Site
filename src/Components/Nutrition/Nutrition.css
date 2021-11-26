@@ -86,7 +86,7 @@
   border-radius: 10px;
 }
 
-.nutrition-container p {
+.nutrition-container .content-show {
   color: black;
   -webkit-box-pack: right;
       -ms-flex-pack: right;
@@ -97,9 +97,21 @@
   margin-left: 5vw;
 }
 
-.nutrition-container p .easy {
+.nutrition-container .content-show .hi {
+  display: none;
+}
+
+.nutrition-container .content-show .easy {
   -webkit-text-decoration-line: line-through;
           text-decoration-line: line-through;
+}
+
+.nutrition-container .content-hide {
+  display: none;
+}
+
+.nutrition-container .content-hide .hi {
+  display: block;
 }
 
 .nutrition-container .btn {

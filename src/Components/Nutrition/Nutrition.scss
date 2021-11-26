@@ -10,21 +10,29 @@
   background-color: rgb(240, 226, 226);
   .boxes{
     @include text;
-    padding-top: 0%;
+    padding-top: 0%; 
     width: 50vw;
     position: relative;
     margin-left: 25vw; 
     border-radius: 10px;
-
   }
-  p{
+  .content-show{
     color:black;
     justify-content: right;
     align-items: flex-end;
     margin-left: 5vw;
+    .hi{
+      display: none;
+    }
     .easy{
       text-decoration-line: line-through;
     }
+  }
+  .content-hide{
+      display: none;
+      .hi{
+        display: block;
+      }
   }
   .btn{
     margin-left: 42vw;
