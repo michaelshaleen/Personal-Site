@@ -22,7 +22,7 @@ function Nutrition() {
         <p>click to flip</p>
       </div>
       <div className="back">
-        <h1>About me</h1>
+        <h1>How We Help</h1>
         <hr/>
         <p> We've heard it before, it's why you're here reading me.
           Abs are made in the kitchen. You can't out 
