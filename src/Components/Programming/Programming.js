@@ -7,8 +7,6 @@ function Programming() {
   return (
     <div className="programming-container">
     Programming
-
-    <Flip />
   </div>
   )
 }

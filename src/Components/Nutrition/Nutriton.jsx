@@ -3,24 +3,28 @@ import './Nutrition.css';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import Button from '../Button/Button';
-import Flip from '../Nutrition-Flip/Flip';
+// import Flip from '../Nutrition-Flip/Flip';
 
 
 function Nutrition() {  
-  const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
+  // const [click, setClick] = useState(false);
+  // const handleClick = () => setClick(!click);
+
+
   return (<>
-    <div className="nutrition-container">
-          <div
-            onClick={handleClick} 
-            data-aos="flip-up"
-            className="boxes">
-            Nutrition
-          </div>
-      <p 
-          className={click ? 'content-hide' : 'content-show'}
-          onClick={handleClick} >
-          We've heard it before, it's why you're here reading me.
+  <div className="nutrition-container">
+  <label>
+    <input type="checkbox" />
+    <div className="flip-card">
+      <div className="front">
+        <img src="Images/beach.jpg"/>
+        <h2>Nutrition Coaching</h2>
+        <p>click to flip</p>
+      </div>
+      <div className="back">
+        <h1>About me</h1>
+        <hr/>
+        <p> We've heard it before, it's why you're here reading me.
           Abs are made in the kitchen. You can't out 
           train a bad diet. Smoothie this, radical cleanse
           that. All you need is this one super food. 
@@ -29,21 +33,23 @@ function Nutrition() {
           necessarily <span className="easy">easy. </span>
           Bottom line is we have coached Performance Athletes
           , soccer moms, Senior Citizens, 
-          <p>Currently we're operating on an individual
-            basis(meaining you get your own coach) so
-            no templates or apps at the moment!
-            We work with you by assessing baseline, goals,
-            timelines, and dynamically working on a nutrition
-            plan. 
-          </p>
-      </p>
-      <Button 
+        </p>
+        <p className="click">click to flip</p>
+      </div>
+    </div>
+  </label>
+  <Button 
           className="btn" 
           buttonStyle="btn--outline"
           buttonSize="btn--large" >
-            Connect
+            Nutrition Connect
         </Button>
-    </div>
+    
+    
+  </div>
+  
+        
+
  </> )
 }
 
