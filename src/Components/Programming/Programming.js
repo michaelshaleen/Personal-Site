@@ -1,14 +1,14 @@
 import React from 'react'
 import './Programming.css';
+import Flip from '../Nutrition-Flip/Flip';
+
 
 function Programming() {
   return (
     <div className="programming-container">
     Programming
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Accusantium, eum? Sapiente mollitia animi quos repudiandae esse porro et 
-      earum accusantium voluptatibus culpa alias accusamus, ad eaque eum non numquam eligendi.</p>
+    <Flip />
   </div>
   )
 }
