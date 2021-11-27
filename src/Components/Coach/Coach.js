@@ -86,8 +86,6 @@ function Coach() {
             </div>
       <div className="nutrition-component">
       <Nutrition />
-      <Flip />
-
       </div>
       <div className="programming-component">
       <Programming />

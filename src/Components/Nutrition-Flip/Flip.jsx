@@ -5,7 +5,7 @@ function Flip() {
   return (
     <>
 
-  <label>
+<label>
     <input type="checkbox" />
     <div className="flip-card">
       <div className="front">
@@ -14,7 +14,6 @@ function Flip() {
         <h2>Second Name</h2>
         <b>More content</b>
         <p>click to flip</p>
-
       </div>
       <div className="back">
         <h1>About me</h1>
