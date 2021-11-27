@@ -3,12 +3,13 @@ import './Nutrition.css';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import Button from '../Button/Button';
+import Flip from '../Nutrition-Flip/Flip';
 
 
 function Nutrition() {  
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-  return (
+  return (<>
     <div className="nutrition-container">
           <div
             onClick={handleClick} 
@@ -16,13 +17,9 @@ function Nutrition() {
             className="boxes">
             Nutrition
           </div>
-          
       <p 
-          className={click ? 'content-show' : 'content-hide'}
+          className={click ? 'content-hide' : 'content-show'}
           onClick={handleClick} >
-          <div className="hi">
-            hi
-          </div>
           We've heard it before, it's why you're here reading me.
           Abs are made in the kitchen. You can't out 
           train a bad diet. Smoothie this, radical cleanse
@@ -47,7 +44,7 @@ function Nutrition() {
             Connect
         </Button>
     </div>
-  )
+ </> )
 }
 
 export default Nutrition;
