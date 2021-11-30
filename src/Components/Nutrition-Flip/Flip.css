@@ -23,6 +23,7 @@ label {
 
 .flip-card .front,
 .flip-card .back {
+  position: absolute;
   width: 15vw;
   height: 15vh;
   text-align: center;
@@ -44,10 +45,6 @@ label:hover .flip-card {
           transform: rotateX(2deg);
   -webkit-box-shadow: 0 20px 20px rgba(50, 60, 60, 0.2);
           box-shadow: 0 20px 20px rgba(50, 60, 60, 0.2);
-}
-
-input {
-  display: none;
 }
 
 :checked + .flip-card {

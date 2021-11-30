@@ -13,9 +13,8 @@ function Hire() {
   const [software, setSoftware]= useState(false);
   const [coaching, setCoaching]= useState(false);
   const [massage, setMassage]= useState(false);
-  
+   
   console.log("massage", massage, "coach", coaching, "software", software);
-
   const sent = "Email Sent! Please allow up to 24 hours for a response";
 
   const sendEmail = (e) => {
@@ -82,34 +81,38 @@ function Hire() {
         {/* right side of form */}
         <div class="contact"> 
           <p>
-            <label>Name</label>
+            <label>Name
             <input
-              className="text-input"
+              className="form-input"
               value={userName}
               type="text" 
               name="from_name"
               onChange={(event) => setName(event.target.value)}
               />
+              </label>
           </p> 
           <p>
-            <label>Email</label>
+            <label>Email
+
             <input
-              className="text-input"
+              className="form-input"
               value={userEmail}
               type="email" 
               name="email"
               onChange={(event) => setEmail(event.target.value)}
               />
+              </label>
           </p>  
           <p>
-            <label>Message</label>
+            <label>Message
             <textarea
-              className="text-input"
+              className="form-input"
               value={message}
               name="message" 
               rows="5"
               onChange={(event) => setMessage(event.target.value)}>
             </textarea> 
+                </label>
           </p> 
         <button 
           className="emailBtn"  
