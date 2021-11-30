@@ -19,56 +19,58 @@ function Software() {
   }
 
   return (<>
+  <div className="softwareParallax">
   <div className="softwareParallax"></div>
-    <p data-aos="fade-right">
-          <ul>
-            <li>React Js + Ajax/Redux</li>
-            <li>Express Js</li>
-            <li>CSS/SASS</li>
-            <li>jQuery</li>
-            <li>AWS</li>
-            <li>Node Js</li>
-            <li>SQL</li>
-            <li>Git/GitHub</li>
-          </ul>
-        </p> 
-  <div className="softwareParallax"></div>
-  <div data-aos="fade-right" className="boxes" > 
-        <h3
-          className="coach-text">
-          Credentials
-        </h3>
+  <div className="boxes" > 
+        <h1>
+          Love Using:
+        </h1>
       <ul className="text">
-        <li>
-          Olympic Weightlifting Level 2
+        <li data-aos="flip-up">
+        React Js + Ajax/Redux
           <DoneOutlineIcon />
         </li>
-        <li>
-          CrossFit Level 1 since 2017
+        <li data-aos="flip-up">
+        Express Js
           <DoneOutlineIcon />
         </li>
-        <li>
-        Personal Training since 2012
+        <li data-aos="flip-up">
+        CSS/SASS
+          <DoneOutlineIcon />
+        </li>
+        <li data-aos="flip-up">
+        Git/GitHub
+          <DoneOutlineIcon />
+        </li> 
+        <li data-aos="flip-up">
+        jQuery
+          <DoneOutlineIcon />
+        </li>
+        <li data-aos="flip-up">
+        Node Js
+          <DoneOutlineIcon />
+        </li>
+        <li data-aos="flip-up">
+        AWS
+          <DoneOutlineIcon />
+        </li>
+        <li data-aos="flip-up">
+        SQL
           <DoneOutlineIcon />
         </li>
       </ul>
     </div>
-    <div data-aos="fade-right" className="boxes" > 
-        <h3
-          className="coach-text">
-            Experience
-        </h3>
+    <div className="boxes" > 
+        <h1>
+            Currently Learning
+        </h1>
       <ul className="text">
-        <li>
-        Weekend Warriors
+        <li data-aos="flip-up">
+        Python
           <DoneOutlineIcon />
         </li>
-        <li>
-          Fat Loss/ Muscle Gain
-          <DoneOutlineIcon />
-        </li>
-        <li>
-        Crawling is better than quitting
+        <li data-aos="flip-up">
+          Docker
           <DoneOutlineIcon />
         </li>
       </ul>
@@ -77,52 +79,56 @@ function Software() {
 
   {/* 
   <div data-aos="fade-right" className="boxes" > 
-        <h3
-          className="text">
-          Confident with:
-        </h3>
-      <ul className="text">
-        <li>
-          JavaScript with React/Redux
-          <DoneOutlineIcon />
-        </
-    </div>
-        <ul
-        className="text">
-              <p>I've played with:</p>
-              <li>
-                Java
-                <DoneOutlineIcon />
-              </li>
-              <li>
-                Python
-                <DoneOutlineIcon />
-              </li>
-      </ul>
-      <div className="softwareParallax">
-        <div className="grids">
-        <div data-aos="fade-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="8000">
-      </div>
-      <div data-aos="zoom-in-up" className="boxes" style={{color: "white", textAlign: "center"}}>
-        <a 
-          className="text" 
-          href="hire"
-          onClick={gitHub}>
-            My GitHub
-        </a>
-      </div>
-    </div>
-        <div className="softwareParallax"></div>
-    <div data-aos="fade-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="8000">
-      </div>
-      <div className="softwareParallax"></div>
-    </div> */}
+  <h3
+  className="text">
+  Confident with:
+  </h3>
+  <ul className="text">
+  <li>
+  JavaScript with React/Redux
+  <DoneOutlineIcon />
+  </
+  </div>
+  <ul
+  className="text">
+  <p>I've played with:</p>
+  <li>
+  Java
+  <DoneOutlineIcon />
+  </li>
+  <li>
+  Python
+  <DoneOutlineIcon />
+  </li>
+  </ul>
+  <div className="softwareParallax">
+  <div className="grids">
+  <div data-aos="fade-left"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="8000">
+  </div>
+  <div data-aos="zoom-in-up" className="boxes" style={{color: "white", textAlign: "center"}}>
+  <a 
+  className="text" 
+  href="hire"
+  onClick={gitHub}>
+  My GitHub
+  </a>
+  </div>
+  </div>
+  <div className="softwareParallax"></div>
+  <div data-aos="fade-left"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="8000">
+  </div>
+  <div className="softwareParallax"></div>
+</div> */}
+
+  <div className="tech-footer">
 
     <Footer />
+  </div>
+</div>
   </>)
 }
 
