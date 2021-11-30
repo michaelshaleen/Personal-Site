@@ -7,6 +7,8 @@ import DoneOutlineIcon from '@material-ui/icons/DoneOutline';
 import Footer from '../Footer/Footer';
 
 
+
+//main function
 function Software() {
   useEffect(() => {
     Aos.init({duration: 500 });
@@ -18,8 +20,7 @@ function Software() {
 
   return (<>
   <div className="softwareParallax"></div>
-
-    <p className="intro">
+    <p data-aos="fade-right">
           <ul>
             <li>React Js + Ajax/Redux</li>
             <li>Express Js</li>

@@ -3,7 +3,7 @@ $font-style: Courier New, Courier, monospace;
 
 
 .softwareParallax {
-  background: url('../background.jpg');
+  background: url('../Images/background.jpg');
   @include parallax;
   height: 80vh;
 }
@@ -13,7 +13,7 @@ $font-style: Courier New, Courier, monospace;
   top: 15vh;
   h3{
     position: relative;
-    left: 6vw;
+    left: 6vw; 
   }
   .technologies_list {
     max-width: 50vw;
