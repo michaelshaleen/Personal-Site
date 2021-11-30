@@ -35,7 +35,135 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+//flip feature in nutrition and programming within
+// coach component
+@mixin cardFlip {
+  label{
+    display: block;
+    margin-top: 2vh; 
+    width: 50vw;
+    height: 10vh;
+    position: relative;
+    height: 100px;
+    perspective: 500px;
+    transform-style: preserve-3d;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    .flip-card{
+      position: relative;
+      width: 10vw;
+      height: 10vh;
+      transform-style: preserve-3d;
+      transition: all .75s ease-in-out;
+      z-index: 1;
+      margin-left: 30vw; 
+      margin-top:30vh;
+      justify-content: center;
+      align-items: center;
+      .front{
+        position: absolute;
+        margin-left: 35vw;
+      }
+      .front, .back{
+        position: absolute;
+        width: 15vw;
+        height: 15vh;
+        text-align: center;
+        background: #fff;
+        backface-visibility: hidden;
+        border-radius: 0 20px 0 20px;
+      }
+      .back{
+        transform: rotateX(180deg);
+        color: #000;
+        background: #fff;
+        width: 15vw;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        .easy{
+          text-decoration-line: line-through;
+        }
+        h1{
+          display: flex;
+          margin-left: 35vw;
+        }
+        p{
+          width: 75vw;
+          margin-right: 45vw;
+        }
+    }
+    &:hover .front{
+      p{
+        font-size: 18px;
+        transition: .75s;
+      }
+    }
+  }
+  //pausing on this for now, label is not around flip card
+    // transform: rotateX(2deg);
+    // box-shadow: 0 20px 20px rgba(50, 60, 60, .2);
+  }
+  input{
+    display: none;
+  }
+  :checked + .flip-card {
+    transform: rotateX(180deg);
+  }
+  //pausing on this for now, label is not around flip card
+  
+  // label:hover :checked + .flip-card{
+  //   transform: rotateX(175deg);
+  //   box-shadow: 0 20px 20px rgba(255, 255, 255, .2);
+  
+  // }
+  .front img {
+    width: 110px;
+    height: 110px;
+    margin: 30px 0 20px 0;
+    border-radius: 50%;
+  }
+  .front h1{
+    font-size: 30px;
+    color: #499bef;
+    margin: 0;
+  }
+  .front h2{
+    font-size: 18px;
+    color: 4e699d;
+    margin: 12px 0 12px 0;
+  }
+  .front b {
+    font-size: 8px;
+    color: #454752;
+    margin: 0 0 35px 0;
+    display: block;
+  }
+  .front p,
+  .back .click{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .back h1{
+    color: #424752;
+    margin: 30px 0 0 0;
+  }
+  hr{
+    width: 180px;
+    margin: 15px auto 10px auto;
+  }
+  .back p {
+    font-size: 16px;
+    color: #000;
+    padding: 0 18px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+}
 
+//hero css
 .hero-container {
   /* background: url('../../../public/favicon.ico') center center/cover no-repeat; */
   height: 100vh;
@@ -62,7 +190,6 @@
     text-align: center;
   }
 }
-
 .hero-btns {
   margin-top: 32px;
 }
@@ -74,7 +201,7 @@
 
 // }
 
-@media screen and (min-width: 800px){
+@media screen and (max-width: 800px){
     .motto {
     color: red;
     font-family: 'Courgette', cursive;

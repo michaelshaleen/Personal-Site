@@ -17,7 +17,7 @@ function Nutrition() {
     <input type="checkbox" />
     <div className="flip-card">
       <div className="front">
-        <img src="Images/beach.jpg"/>
+        {/* <img src="Images/beach.jpg"/> */}
         <h2>Nutrition Coaching</h2>
         <p>click to flip</p>
       </div>

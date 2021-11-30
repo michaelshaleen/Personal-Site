@@ -43,7 +43,7 @@
   margin-top: 32px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
   .motto {
     color: red;
     font-family: 'Courgette', cursive;
@@ -157,7 +157,7 @@
   margin-top: 32px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
   .motto {
     color: red;
     font-family: 'Courgette', cursive;
@@ -193,33 +193,40 @@
   color: #9ba3ac;
 }
 
-.contact {
+.container .wrapper .company-info input {
+  display: inline;
+  margin: 5px;
+}
+
+.container .wrapper .contact {
   background: #9ba3ac;
 }
 
-.contact p {
+.container .wrapper .contact p {
   margin: 0;
 }
 
-.contact p label {
+.container .wrapper .contact p label {
   display: block;
-  margin-bottom: 5px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  padding-bottom: 0;
 }
 
-.contact p .text-input {
-  width: 90%;
-  margin-left: 15px;
-  margin-right: 15px;
+.container .wrapper .contact p label .form-input {
+  width: 50vw;
+  margin-left: 1vw;
   height: 12vh;
   background: #dbd6d6;
-  border-radius: 5px;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
-.contact p .text-input:hover {
+.container .wrapper .contact p label .form-input:hover {
   cursor: pointer;
-  border: 1.5px solid #387c1e;
+  border-radius: 25px;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .contact form .full {
@@ -250,9 +257,8 @@
   border: 1px solid #c9e6ff;
   margin-left: 15px;
   margin-right: 15px;
-  -webkit-transition: all .75s ease-out;
-  transition: all .75s ease-out;
-  border-radius: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
   padding: 8px 20px;
   border-radius: 2px;
   outline: none;
@@ -264,10 +270,10 @@
   cursor: pointer;
   color: #fff;
   background-color: #242424;
-  -webkit-transition: all .75s ease-out;
-  transition: all .75s ease-out;
+  -webkit-transition: 1s;
+  transition: 1s;
   text-decoration: none;
-  border: 1.5px solid #387c1e;
+  border-radius: 25px;
 }
 
 @media (min-width: 700px) {
