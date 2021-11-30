@@ -35,6 +35,8 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+//flip feature in nutrition and programming within
+// coach component
 @mixin cardFlip {
   label{
     display: block;
@@ -161,6 +163,7 @@
   
 }
 
+//hero css
 .hero-container {
   /* background: url('../../../public/favicon.ico') center center/cover no-repeat; */
   height: 100vh;
@@ -187,7 +190,6 @@
     text-align: center;
   }
 }
-
 .hero-btns {
   margin-top: 32px;
 }
@@ -199,7 +201,7 @@
 
 // }
 
-@media screen and (min-width: 800px){
+@media screen and (max-width: 800px){
     .motto {
     color: red;
     font-family: 'Courgette', cursive;
