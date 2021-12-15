@@ -23,20 +23,20 @@ function Footer() {
         The finish line is halfway
       </div>
       <div className="hero-btns">
-            <a href="#"
+            {/* <a href="#"
               onClick={gitHub}>
               <GitHubIcon />
-            </a>
+            </a> */}
         <Button 
           className="btn" 
           buttonStyle="btn--outline"
           buttonSize="btn--large" >
             Connect
         </Button>
-            <a href="#"
+            {/* <a href="#"
               onClick={linkedIn}>
               <LinkedInIcon />
-            </a>
+            </a> */}
       </div>
     </div>
             </div>
