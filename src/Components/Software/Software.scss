@@ -8,6 +8,16 @@ $font-style: Courier New, Courier, monospace;
   height: 60vh;
 
 }
+.checkout{
+  padding-top: 25vh;
+}
+
+.github-icon{
+  &:hover{
+    cursor: pointer;
+  }
+  
+}
 // .technologies {
 //   display: inline;
 //   position: absolute;
@@ -52,6 +62,3 @@ $font-style: Courier New, Courier, monospace;
 //   }
 // }
 
-.tech-footer{
-  padding-top: 75vh;
-}

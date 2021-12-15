@@ -5,6 +5,8 @@ import './Software.css';
 import Button from '../Button/Button';
 import DoneOutlineIcon from '@material-ui/icons/DoneOutline';
 import Footer from '../Footer/Footer';
+import GitHubIcon from '@material-ui/icons/GitHub';
+
 
 
 
@@ -19,11 +21,10 @@ function Software() {
   }
 
   return (<>
-  <div className="softwareParallax">
   <div className="softwareParallax"></div>
   <div className="boxes" > 
         <h1>
-          Love Using:
+          I Love Using:
         </h1>
       <ul className="text">
         <li data-aos="flip-up">
@@ -74,7 +75,15 @@ function Software() {
           <DoneOutlineIcon />
         </li>
       </ul>
+      <div className="checkout"><u>
+        Check out my Github
+      </u>
       </div>
+        <GitHubIcon
+          className="github-icon"
+          style={{ fontSize: 40 }}
+          onClick={gitHub}/>
+      <div className="softwareParallax"></div>
 
 
   {/* 
@@ -124,10 +133,10 @@ function Software() {
   <div className="softwareParallax"></div>
 </div> */}
 
-  <div className="tech-footer">
+  {/* <div className="tech-footer">
 
-    <Footer />
-  </div>
+</div> */}
+<Footer />
 </div>
   </>)
 }

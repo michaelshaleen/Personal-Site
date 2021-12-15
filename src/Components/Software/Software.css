@@ -76,7 +76,11 @@
   height: 60vh;
 }
 
-.tech-footer {
-  padding-top: 75vh;
+.checkout {
+  padding-top: 25vh;
+}
+
+.github-icon:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=Software.css.map */
