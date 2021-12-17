@@ -1,8 +1,8 @@
 FROM node:15.13.0
-WORKDIR /code
-ENV PORT 80
-COPY package.json /code/package.json
+WORKDIR /Desktop/personal-page
+EXPOSE 8081
+COPY package.json .
 RUN npm install
-COPY . /code
+COPY . /personal-page
 CMD [ "node, src/index.js" ]
 

@@ -50,6 +50,23 @@ function Massage() {
         </li>
       </ul>
     </div>
+    <div className="boxes">
+      <h1>Experience</h1>
+      <p>Since 2018 I've been able using a variety of
+        tools, techniques, and modalities to help improve
+        posture, relieve pain, and improve overall health
+        and wellness. Whether it's at a relaxing spa, 
+        or Olympic Trials I've done it.
+      </p>
+      <h1>Education:</h1>
+      <p>I graduated from Cortiva Institute of Massage Therapy(Las Vegas)
+        in 2018 and passed the MBLEX while still in school so that I may be licensed 
+        anywhere in the United States. Currently I'm working with a license 
+        in Minnesota. Cortiva was awesome because we had constant hand on
+        practice with 750 hours in the base program and an additional 250 in the
+        Master Bodyworker Program which I completed in quick succession. 
+        </p>
+    </div>
       <div className="massage">
         <div className="grids">
         <div 
@@ -58,60 +75,6 @@ function Massage() {
           // data-aos-duration="8000"
           >
             </div>
-        <div 
-          data-aos="fade-right" 
-          className="boxes" 
-          > 
-    <div data-aos="fade-left">
-      </div>            
-          <ul className="list">
-          <li>
-          <span
-            className="list">
-            Cupping Therapy
-            <DoneOutlineIcon />
-          </span>
-            Maternity Massage
-            <DoneOutlineIcon />
-          </li>
-            <li>
-            <span
-              className="list">
-                Deep Tissue
-              <DoneOutlineIcon />
-            </span>
-              IMBLEX Graduate
-            <DoneOutlineIcon />
-            </li>
-          <li>
-          <span
-            className="list">
-            Myofascial Release
-            <DoneOutlineIcon />
-          </span>
-            Lymphatic 
-            <DoneOutlineIcon />
-          </li>
-            <li>
-            <span
-              className="list">
-              Hot Stones
-              <DoneOutlineIcon />
-            </span>
-              Craniosacral
-              <DoneOutlineIcon />
-            </li> 
-            <li>
-            <span
-              className="list">
-              Swedish
-              <DoneOutlineIcon />
-            </span>
-              Russian
-              <DoneOutlineIcon />
-            </li>
-          </ul>
-        </div>
     </div>
     </div>
     <Footer />

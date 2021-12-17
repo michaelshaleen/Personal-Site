@@ -68,11 +68,9 @@ function Software() {
       <ul className="text">
         <li data-aos="flip-up">
         Python
-          <DoneOutlineIcon />
         </li>
         <li data-aos="flip-up">
           Docker
-          <DoneOutlineIcon />
         </li>
       </ul>
       <div className="checkout"><u>
