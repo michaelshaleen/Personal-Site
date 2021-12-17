@@ -16,12 +16,40 @@ function Massage() {
 
   return (<>
   <div className="massageParallax"></div>
-        <p className="intro">
-            Through patient attention to detail,
-            I work with each client and their unique needs
-            in order to obtain long term improvements in posture, 
-            pain relief, reduction of stress and an overall improved feeling of health and wellness.
-        </p> 
+  <div className="boxes" > 
+        <h1>
+          Modalities:
+        </h1>
+      <ul className="text">
+        <li data-aos="flip-up">
+        Deep Tissue
+        </li>
+        <li data-aos="flip-up">
+        Myofascial Release
+        </li>
+        <li data-aos="flip-up">
+        Hot Stones
+        </li>
+        <li data-aos="flip-up">
+        Cranial Sacral
+        </li> 
+        <li data-aos="flip-up">
+        Reflexology
+        </li>
+        <li data-aos="flip-up">
+        Swedish
+        </li>
+        <li data-aos="flip-up">
+        Russian
+        </li>
+        <li data-aos="flip-up">
+        Maternity
+        </li>
+        <li data-aos="flip-up">
+        Lymph Drainage
+        </li>
+      </ul>
+    </div>
       <div className="massage">
         <div className="grids">
         <div 

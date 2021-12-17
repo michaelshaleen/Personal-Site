@@ -19,7 +19,7 @@ function Software() {
   const gitHub = () => {
     window.open("https://github.com/michaelshaleen")
   }
-
+ 
   return (<>
   <div className="softwareParallax"></div>
   <div className="boxes" > 
