@@ -13,7 +13,6 @@ function Hire() {
   const [software, setSoftware]= useState(false);
   const [coaching, setCoaching]= useState(false);
   const [massage, setMassage]= useState(false);
-   
   console.log("massage", massage, "coach", coaching, "software", software);
   const sent = "Email Sent! Please allow up to 24 hours for a response";
 

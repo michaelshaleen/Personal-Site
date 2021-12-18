@@ -36,6 +36,10 @@ function Software() {
           <DoneOutlineIcon />
         </li>
         <li data-aos="flip-up">
+        Material UI
+          <DoneOutlineIcon />
+        </li>
+        <li data-aos="flip-up">
         CSS/SASS
           <DoneOutlineIcon />
         </li>
