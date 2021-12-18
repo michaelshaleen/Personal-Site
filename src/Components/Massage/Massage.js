@@ -52,14 +52,18 @@ function Massage() {
     </div>
     <div className="boxes">
       <h1>Experience</h1>
-      <p>Since 2018 I've been able using a variety of
+      <p data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000"> Since 2018 I've been able using a variety of
         tools, techniques, and modalities to help improve
         posture, relieve pain, and improve overall health
         and wellness. Whether it's at a relaxing spa, 
         or Olympic Trials I've done it.
       </p>
       <h1>Education:</h1>
-      <p>I graduated from Cortiva Institute of Massage Therapy(Las Vegas)
+      <p  data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000">I graduated from Cortiva Institute of Massage Therapy(Las Vegas)
         in 2018 and passed the MBLEX while still in school so that I may be licensed 
         anywhere in the United States. Currently I'm working with a license 
         in Minnesota. Cortiva was awesome because we had constant hand on

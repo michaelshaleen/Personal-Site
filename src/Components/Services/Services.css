@@ -43,7 +43,7 @@
   margin-top: 32px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
   .motto {
     color: red;
     font-family: 'Courgette', cursive;
@@ -67,7 +67,7 @@
 }
 
 .beach {
-  background: url("../images/beach.jpg");
+  background: url("../Images/beach.jpg");
   /* Create the parallax scrolling effect */
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -78,7 +78,7 @@
 }
 
 .competition {
-  background: url("../images/beach.jpg");
+  background: url("../Images/beach.jpg");
   /* Create the parallax scrolling effect */
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -88,20 +88,13 @@
   height: 85vh;
 }
 
-.boxes {
-  background-color: #0b0b0b;
+.p-container {
+  width: 100vw;
+  background-color: #363131;
   color: white;
-  padding-top: 0px;
-  font-size: 24px;
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
 }
 
-.boxes h3 {
-  margin-top: 10px;
-}
-
-.intro {
+.p-container .intro {
   margin-left: 10vw;
   margin-right: 10vw;
   background-color: #0b0b0b;
@@ -111,6 +104,22 @@
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   width: 75vw;
+}
+
+.boxes {
+  background-color: #0b0b0b;
+  color: white;
+  padding-top: 0px;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 0%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.list {
+  font-size: 16px;
 }
 
 footer {
@@ -141,11 +150,11 @@ footer {
 }
 
 .nutrition-component {
-  margin-top: 20vh;
+  margin-top: 5vh;
 }
 
 .programming-component {
-  margin-top: 20vh;
+  margin-top: 5vh;
 }
 
 .hero-container {
@@ -193,7 +202,7 @@ footer {
   margin-top: 32px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
   .motto {
     color: red;
     font-family: 'Courgette', cursive;
