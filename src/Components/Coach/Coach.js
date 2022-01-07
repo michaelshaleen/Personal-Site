@@ -24,7 +24,6 @@ function Coach() {
   return (<>
     <div className="beach"></div>
     <div className="p-container">
-      <ArrowDropDownCircleIcon />
       <p className="intro">
           Since 2012 I've been supporting people
           to reach and MAINTAIN their health and fitness

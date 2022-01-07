@@ -20,10 +20,10 @@
   background-color: rgb(54, 49, 49);
   color: white;
   .intro {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 14vw;
     @include text;
     width: 75vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   }
 }
 .boxes{

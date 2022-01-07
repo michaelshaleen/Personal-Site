@@ -95,8 +95,7 @@
 }
 
 .p-container .intro {
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 14vw;
   background-color: #0b0b0b;
   color: white;
   padding-top: 0px;
@@ -104,6 +103,7 @@
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   width: 75vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .boxes {
