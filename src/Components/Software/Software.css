@@ -80,7 +80,15 @@
   padding-top: 25vh;
 }
 
+.github-icon {
+  padding-top: 3vh;
+}
+
 .github-icon:hover {
   cursor: pointer;
+}
+
+.boxes li {
+  padding-top: 3vh;
 }
 /*# sourceMappingURL=Software.css.map */

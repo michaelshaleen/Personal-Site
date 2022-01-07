@@ -92,9 +92,13 @@
 }
 
 @media(min-width: 700px){
+
   .wrapper{
     display: grid;
     grid-template-columns:1fr 2fr;
+    .contact{
+      margin: 0;
+        }
   }
   .wrapper > *{
     padding: 2em;

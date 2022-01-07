@@ -13,10 +13,18 @@ $font-style: Courier New, Courier, monospace;
 }
 
 .github-icon{
+  padding-top: 3vh;
+
   &:hover{
     cursor: pointer;
   }
   
+}
+
+.boxes{
+  li{
+    padding-top: 3vh;
+  }
 }
 // .technologies {
 //   display: inline;

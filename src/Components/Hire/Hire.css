@@ -283,6 +283,9 @@
     -ms-grid-columns: 1fr 2fr;
         grid-template-columns: 1fr 2fr;
   }
+  .wrapper .contact {
+    margin: 0;
+  }
   .wrapper > * {
     padding: 2em;
   }
