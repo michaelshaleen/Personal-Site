@@ -38,12 +38,12 @@ function Nutrition() {
       </div>
     </div>
   </label>
-  <Button 
+  {/* <Button 
           className="btn" 
           buttonStyle="btn--outline"
           buttonSize="btn--large" >
             Nutrition Connect
-        </Button>
+        </Button> */}
     
     
   </div>

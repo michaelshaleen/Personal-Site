@@ -10,9 +10,11 @@
 label{
   display: block;
   margin-top: 2vh; 
-  width: 50vw;
-  height: 10vh;
+  width: 0vw;
+  height: 0vh;
   position: relative;
+  border: 2px solid blue;
+
   height: 100px;
   perspective: 500px;
   transform-style: preserve-3d;
@@ -37,19 +39,22 @@ label{
 
 .flip-card{
   position: relative;
-  width: 10vw;
-  height: 10vh;
-  transform-style: preserve-3d;
-  transition: all .75s ease-in-out;
-  z-index: 1;
-  margin-left: 30vw; 
-  margin-top:30vh;
-  justify-content: center;
-  align-items: center;
+  // width: 10vw;
+  // height: 10vh;
+  // border: 3px solid rgb(27, 25, 25);
+  // transform-style: preserve-3d;
+  // transition: all .75s ease-in-out;
+  // z-index: 1;
+  // margin-left: 30vw; 
+  // margin-top:30vh;
+  // justify-content: center;
+  // align-items: center;
 }
-.flip-card .front{
-  position: absolute;
-  margin-left: 35vw;
+
+  .front{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
 
 }
 .flip-card .front,
@@ -81,14 +86,14 @@ label{
   }
 }
 //pausing on this for now, label is not around flip card
-.flip-card:hover .front{
-  p{
-    font-size: 18px;
-    transition: .75s;
-  }
-  // transform: rotateX(2deg);
-  // box-shadow: 0 20px 20px rgba(50, 60, 60, .2);
-}
+// .flip-card:hover .front{
+//   p{
+//     text-decoration: underline;
+//     transition: .75s;
+//   }
+//   // transform: rotateX(2deg);
+//   // box-shadow: 0 20px 20px rgba(50, 60, 60, .2);
+// }
 
 // input{
 //   display: none;
