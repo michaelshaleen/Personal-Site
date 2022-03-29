@@ -87,7 +87,7 @@ function Software() {
       </div>
         <GitHubIcon
           className="github-icon"
-          style={{ fontSize: 40 }}
+          style={{ fontSize: 140 }}
           onClick={gitHub}/>
       <div className="softwareParallax"></div>
 
