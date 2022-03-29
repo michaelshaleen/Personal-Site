@@ -208,11 +208,18 @@
   margin: 0;
 }
 
+.container .wrapper .contact p:hover label {
+  color: #38448a;
+  font-size: 26px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
 .container .wrapper .contact p label {
   display: block;
-  margin-left: 10vw;
-  margin-top: 10vh;
   padding-bottom: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .container .wrapper .contact p label .form-input {
@@ -226,9 +233,6 @@
 
 .container .wrapper .contact p label .form-input:hover {
   cursor: pointer;
-  border-radius: 25px;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .contact form .full {
@@ -241,6 +245,7 @@
 .contact form textarea {
   width: 95%;
   height: 50px;
+  font-size-adjust: inherit;
   padding: 1m;
   border: 1px solid #c9e6ff;
   margin-left: 15px;
@@ -253,11 +258,11 @@
 }
 
 .emailBtn {
-  width: 90%;
+  width: 80%;
   height: 50px;
   padding: 1m;
   border: 1px solid #c9e6ff;
-  margin-left: 15px;
+  margin-left: 5vw;
   margin-right: 15px;
   -webkit-transition: 1s;
   transition: 1s;

@@ -3,6 +3,8 @@ import swal from 'sweetalert';
 import React from 'react';
 import emailjs from 'emailjs-com';
 import {useState} from 'react';
+import ScaleText from "react-scale-text";
+
 import './Hire.css';
 
 //main function
@@ -106,6 +108,8 @@ function Hire() {
           </p>  
           <p>
             <label>Message
+
+            <ScaleText>
             <textarea
               className="form-input"
               value={message}
@@ -113,6 +117,7 @@ function Hire() {
               rows="5"
               onChange={(event) => setMessage(event.target.value)}>
             </textarea> 
+            </ScaleText>
                 </label>
           </p> 
         <button 
