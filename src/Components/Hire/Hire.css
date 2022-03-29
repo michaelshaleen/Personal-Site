@@ -194,8 +194,10 @@
 }
 
 .container .wrapper .company-info input {
-  display: inline;
-  margin: 5px;
+  display: inline-block;
+  width: 5vw;
+  height: 2vh;
+  margin-top: 5vh;
 }
 
 .container .wrapper .contact {
