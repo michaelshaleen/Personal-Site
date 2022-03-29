@@ -22,6 +22,8 @@ function Coach() {
 
   return (<>
     <div className="beach"></div>
+    <div className="beach">
+
     <div className="p-container">
       <p className="intro"
           data-aos="fade-down"
@@ -41,6 +43,7 @@ function Coach() {
           after their goals are met.
         </p>   
       </div>  
+            </div>
       {/* parallax */}
     <div className="competition"></div>
     <div className="p-container">
