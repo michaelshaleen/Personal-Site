@@ -55,27 +55,29 @@ function Hire() {
             services interest you, 
             check all that apply.
           </p>
+          Coaching
           <input 
             type="checkbox"
             name="coaching"
             value={coaching}
             onChange={(event) => setCoaching(!coaching)}
           />
-          Coaching
-          <input 
-            type="checkbox"
-            name="software"
-            value={software}
-            onChange={(event) => setSoftware(!software)}
-            />
-          Software
+          <div className="software-input">
+            Software
+            <input 
+              type="checkbox"
+              name="software"
+              value={software}
+              onChange={(event) => setSoftware(!software)}
+              />
+            </div>
+            Massage
           <input 
             type="checkbox"
             name="massage"
             value={massage}
             onChange={(event) => setMassage(!massage)}
             />
-          Massage
         </div>
         {/* right side of form */}
         <div class="contact"> 
