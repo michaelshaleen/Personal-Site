@@ -63,6 +63,10 @@ function Software() {
         SQL
           <DoneOutlineIcon />
         </li>
+        <li data-aos="flip-up">
+        Docker
+          <DoneOutlineIcon />
+        </li>
       </ul>
     </div>
     <div className="boxes" > 
@@ -74,7 +78,7 @@ function Software() {
         Python
         </li>
         <li data-aos="flip-up">
-          Docker
+          React Native
         </li>
       </ul>
       <div className="checkout"><u>
