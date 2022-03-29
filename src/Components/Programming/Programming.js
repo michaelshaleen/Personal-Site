@@ -1,6 +1,5 @@
 import React from 'react'
 import './Programming.css';
-import Flip from '../Nutrition-Flip/Flip';
 import Button from '../Button/Button';
 
 

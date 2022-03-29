@@ -3,7 +3,6 @@ import './Coach.css';
 import Footer from '../Footer/Footer';
 import Programming from '../Programming/Programming';
 import Nutrition from '../Nutrition/Nutriton';
-import Flip from '../Nutrition-Flip/Flip';
 
 import { Link } from 'react-router-dom';
 import DoneOutlineIcon from '@material-ui/icons/DoneOutline';
