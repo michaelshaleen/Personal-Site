@@ -23,8 +23,10 @@ function Coach() {
   return (<>
     <div className="beach"></div>
     <div className="p-container">
-      <ArrowDropDownCircleIcon />
-      <p className="intro">
+      <p className="intro"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000">
           Since 2012 I've been supporting people
           to reach and MAINTAIN their health and fitness
           goals. From Marine Corps entry preparation
