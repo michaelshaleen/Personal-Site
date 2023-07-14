@@ -7,18 +7,19 @@ function Hero() {
   return(
     <>
       <div className="hero-container">
-        <video src="/nature.mp4" 
+        {/* <video src="/nature.mp4" 
           autoPlay loop muted 
-          style={{width:"100%"}}/>
+          style={{width:"100%"}}/> */}
+          
         <div className="motto">
-          The finish line is halfway
+          The finish line is halfway 
         </div>
         <div className="hero-btns">
           <Button 
             className="btn" 
             buttonStyle="btn--outline"
             buttonSize="btn--large" >
-              Connect
+              Connect 
           </Button>
         </div>
       </div>
